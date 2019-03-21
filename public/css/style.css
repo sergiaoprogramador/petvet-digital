@@ -1,0 +1,216 @@
+html, body {
+    background-color: rgb(253, 243, 179);
+	background-size: 100%;
+	width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+	width: 100%;
+	height: 0;
+	margin-bottom: 10vw;
+	position: relative;
+	top: 18vw;
+}
+
+div.container-principal {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+div.row-principal {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* ================== CABEÇALHO =================== */
+
+header.header {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 17vw;
+	padding: 0;
+	position: fixed;
+	z-index: 1;
+}
+
+div.header {
+	display: flex;
+	padding: 0;
+	height: 17vw;
+	width: 100%;
+	background: rgb(253, 243, 179);
+	border-bottom: 2px solid;
+}
+
+div#icon-menu {
+	width: 30vw;
+}
+
+img#icon-hamburguer {
+	width: 12vw;
+	height: 12vw;
+	position: relative;
+	top: 2.6vw;
+	left: 2vw;
+}
+
+div#logo-pet {
+	width: 30vw;
+}
+
+img#icon-logo {
+	width: 18vw;
+	position: relative;
+	top: 1.3vw;
+	left: 10vw;
+}
+
+div.header-login {
+	width: 30vw;
+}
+
+div.header-login a {
+	color: #000;
+	position: relative;
+	left: 20vw;
+	top: 5vw;
+	font-size: 6vw;
+	font-family: Arial;
+	font-weight: 600;
+}
+
+/* ================== MENU =================== */
+nav.nav-menu {
+	display: flex;
+	flex-direction: column;
+	background: rgb(253, 243, 179);
+	width: 60%;
+	position: fixed;
+	top: 17vw;
+	z-index: 1;
+}
+
+div.menu {
+	display: none;
+}
+
+div.menu-itens {
+	height: 60.5vw;
+}
+
+div.menu-itens li {
+	border-bottom: 0.5px solid;
+    border-color: rgba(180,180,180,.3);
+    padding: 0 0 0 12vw;
+    height: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.menu-itens li:hover {
+	background: rgb(241,241,241, .5);
+}
+
+div.menu-itens li p {
+	color: #000;
+	font-weight: bolder;
+	font-size: 4vw;
+	width: 100%;
+	margin: 0;
+}
+
+div.redes-sociais {
+	display: flex;
+	justify-content: space-evenly;
+	line-height: 9vw;
+}
+
+img#iconFacebook {
+	width: 2.5vw;
+}
+
+img#iconInstagram {
+	width: 5.8vw;
+}
+
+img#iconTwitter {
+	width: 6.8vw;
+}
+
+input#toggle {
+	display: none;
+}
+
+input#toggle:checked + div.menu {
+	display: flex;
+	flex-direction: column;
+	border: 0.5px solid;
+	border-color: rgba(180,180,180,.3);
+	height: 70vw;
+}
+/* ================== MEDIA QUERIES =================== */
+/* =================== Full Large - 1700 acima ======================= */
+@media (min-width: 1700px) {
+
+}    
+    
+/* =================== Large - 1200px a 1699 =================== */
+@media (min-width: 1200px) and (max-width: 1699.98px) {
+
+}
+
+/* =================== Large - 992px a 1199px =================== */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* =============== CONFIGURAÃƒâ€¡ÃƒÆ’O DE ALTURA ==================== */
+@media (min-width: 992px) {
+    header.header {
+	    height: 13%;
+    }
+    
+    nav div.menu {
+        height: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    header.header {
+	    height: 12%;
+    }
+    
+    nav.nav-menu label {
+        height: 6vh;
+    }
+}
+
+@media (max-height: 450px) {
+    header.header {
+        height: 20%;
+    }
+    
+    nav.nav-menu label {
+        height: 10vh;
+    }
+}
+
+/* ================= Medium - 768px a 991px ================== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*================= Small - 576px a 767px ==================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+}

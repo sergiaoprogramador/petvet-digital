@@ -1,0 +1,114 @@
+
+html, body {
+    background: url("../img/home/FUNDO - SVG.svg") no-repeat center;
+    background-size: 100%;
+}
+
+div#home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 18vw;
+}
+
+div#logo-pet {
+    height: 100vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img#icon-logo {
+    width: 47vw;
+    position: relative;
+    left: 0vw;
+    top: -1vw;
+    bottom: 4vw;
+}
+
+div#texto-pet {
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+div#texto-pet h1 {
+    font-family: vladmir;
+    font-size: 14vw;
+    position: relative;
+}
+
+div#texto-pet h1:first-child {
+    text-align: center;
+    position: relative;
+    top: 2vw;
+}
+
+div#texto-pet h1:last-child {
+    text-align: center;
+    position: relative;
+    bottom: 8vw;
+}
+
+div#scroll {
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+img#icon-scroll {
+    width: 15vw;
+    position: relative;
+    top: 4vw;
+}
+
+/* ================== MEDIA QUERIES =================== */
+/* =================== Full Large - 1700 acima ======================= */
+@media (min-width: 1700px) {
+
+
+}
+
+
+/* =================== Large - 1200px a 1699 =================== */
+@media (min-width: 1200px) and (max-width: 1699.98px) {
+
+
+}
+
+/* =================== Large - 992px a 1199px =================== */
+@media (min-width: 992px) {
+
+}
+
+
+/*================= Medium - 768px a 991px ==================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (max-width: 991.98px) and (max-height:  600px) {
+ 
+}
+
+/*================= Small - 576px a 767px ==================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+}
+
+@media (max-width: 576px) and (min-height:  600px) {
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+{% extends 'templates/template.twig' %}
+
+{% block linksCSS %}
+
+        <link rel="stylesheet" type="text/css" href="css/inicio.css"/>
+        
+{% endblock %}
+
+{% block linksJS %}
+
+        <!-- ===================== JQUERY VALIDATION e MASK ========================== -->
+        <script src="bootstrap-4.1.3/js/jquery.validate.min.js"></script>
+        <script src="bootstrap-4.1.3/js/additional-methods.min.js"></script>
+        <script src="bootstrap-4.1.3/js/localization/messages_pt_BR.js"></script>
+        <script src="bootstrap-4.1.3/js/jquery.mask.min.js"></script>
+        
+{% endblock %}
+
+{% block conteudo %}
+
+                    <main class="tela-home" id="conteudo">
+                        <div id="home">
+                                <div id="logo-pet">
+                                        <img src="img/home/logo.svg" id="icon-logo">
+                                </div>
+
+                                <div id="texto-pet">
+                                        <h1>Meu Pet</h1>
+                                        <br/>
+                                        <h1>Meu Mundo!</h1>
+                                </div>
+
+                                <div id="scroll">
+                                        <a href="home"><img src="img/home/icon-scroll.svg" id="icon-scroll"></a>
+                                </div>
+                        </div>
+                    </main>
+                    
+{% endblock %}

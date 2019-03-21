@@ -1,0 +1,127 @@
+main.tela-home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main.tela-home h1 {
+    font-family: Arial;
+    font-size: 7vw;
+    font-weight: 900;
+    text-align: center;
+}
+
+div.buscar {
+    margin-top: 4vw;
+    text-align: center;
+    line-height: 12vw;
+}
+
+div.buscar label {
+    font-weight: 900;
+    font-size: 5vw;    
+}
+
+input {
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+input#buscar {
+    width: 60vw;
+    height: 9vw;
+    margin-left: 1vw;
+    border-radius: 2vw;
+}
+
+div.cidade {
+    line-height: 12vw;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+div.cidade label {
+    font-weight: 900;
+    font-size: 5vw;
+}
+
+input#cidade {
+    width: 60vw;
+    height: 9vw;
+    margin-left: 1vw;
+    border-radius: 2vw;
+}
+
+div.form-button {
+    margin-top: 5vw;
+    text-align: center;
+    line-height: 7.5vw;
+}
+
+button#pesquisar {
+    display: inline-block;
+    padding: 1vw 31vw;
+    font-size: 4.5vw;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 2vw;
+    box-shadow: 0 1vw #999;
+}
+
+button#pesquisar:hover {
+    background-color: #3e8e41;
+}
+
+button#pesquisar:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1vw #666;
+    transform: translateY(1vw);
+}
+
+::-webkit-input-placeholder {
+    font-size: 4vw;
+    text-align: center;
+}
+
+div#icons-botoes {
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-around;
+    height: 40vw;
+}
+
+div#icons-botoes a {
+    position: relative;
+    top: 7.5vw;
+    height: 25.3vw;
+    cursor: pointer;
+}
+
+div#icons-botoes a:hover {
+    background: rgb(241,241,241, .5);
+}
+
+div#icons-botoes a:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1vw #666;
+    transform: translateY(1vw);
+}
+
+img#icon-consulta {
+    width: 25vw;
+    margin-left: 0vw;
+}
+
+img#icon-doacoes {
+    width: 25vw;
+}
+
+img#icon-encontrePet {
+    width: 25vw;
+    margin-right: 0vw;
+}

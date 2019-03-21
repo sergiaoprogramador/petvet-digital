@@ -1,0 +1,120 @@
+main.tela-home h1 {
+    font-family: Arial;
+    font-size: 7.3vw;
+    font-weight: 900;
+    text-align: center;
+}
+
+div {
+    width: 100%;
+}
+
+form {
+}
+
+div.nome {
+    margin-top: 4vw;
+    line-height: 10vw;
+}
+
+div.nome label {
+    font-weight: 900;
+    font-size: 5vw;
+    margin: 0 7vw 0 0;
+}
+
+input {
+    text-align: center;
+    font-size: 4vw;
+}
+
+input#nome {
+    width: 60vw;
+    height: 9vw;
+    border-radius: 2vw;
+}
+
+div.contato {
+    margin-top: 3vw;
+    line-height: 10vw;
+}
+
+div.contato label {
+    font-weight: 900;
+    font-size: 5vw;
+    margin: 0 1vw 0 0;   
+}
+
+input#contato {
+    width: 60vw;
+    height: 9vw;
+    border-radius: 2vw;
+}
+
+div.animal {
+    margin-top: 3vw;
+    line-height: 10vw;
+}
+
+div.animal label {
+    font-weight: 900;
+    font-size: 5vw; 
+    margin: 0 13.3vw 0 0;   
+}
+
+input#animal {
+    width: 60vw;
+    height: 9vw;
+    border-radius: 2vw;
+}
+
+div.solicitacao {
+    margin-top: 4vw;
+    text-align: center;
+}
+
+div.solicitacao label {
+    font-weight: 900;
+    font-size: 5vw;
+    margin: 0;  
+}
+
+textarea#animal {
+    width: 78vw;
+    margin-left: 1vw;
+    border-radius: 2vw;
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 2vw;
+}
+
+div.form-button {
+    margin-top: 5vw;
+    text-align: center;
+    line-height: 7.5vw;
+}
+
+button#solicitar {
+    display: inline-block;
+    padding: 1vw 20vw;
+    font-size: 4.5vw;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 2vw;
+    box-shadow: 0 1vw #999;
+}
+
+button#solicitar:hover {
+    background-color: #3e8e41;
+}
+
+button#solicitar:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1vw #666;
+    transform: translateY(1vw);
+}

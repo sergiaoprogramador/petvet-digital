@@ -1,0 +1,32 @@
+/*======== RESET ========*/
+* { margin: 0; padding: 0; border: none; outline: none; font-weight: 300; box-sizing: border-box; font-family: 'skola_medium',sans-serif;}
+
+html, body { width: 100%; height: 100%; padding: 0; margin: 0; overflow: auto;}
+
+main { }
+
+div.container-principal, div.row-principal { height: 100%;}
+
+input { font-family: 'Arial', sans-serif; }
+
+ul { list-style: none; }
+
+/* ============================ FONTS =============================== */
+@font-face {
+    font-family: 'vladmir';
+    src: url("../fonts/VLADIMIR.TTF")
+}
+/* ============================ ESTILO =============================== */
+/* ========= CABEÃ‡ALHO =========== */
+
+
+/* ========= MENU =========== */
+
+
+/* ================================== MAIN MEUS DADOS =========================================*/
+/* ======= MEUS DADOS BLOCO SUPERIOR ======= */
+
+
+/* ====================================== MAIN ACESSOS e FATURAS =============================================*/
+/* ============ EXTRATO DE ACESSOS e  VISUALIZAR FATURAS ========== */
+/* ============== BLOCO BUSCA ============== */

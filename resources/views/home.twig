@@ -1,0 +1,49 @@
+{% extends 'templates/template.twig' %}
+
+{% block linksCSS %}
+
+        <link rel="stylesheet" type="text/css" href="css/home.css"/>
+        
+{% endblock %}
+
+{% block linksJS %}
+
+        
+{% endblock %}
+
+{% block conteudo %}
+
+                        <!-- ======================== CABEÇALHO ===================== -->
+                        {% include 'templates/header.twig' %}
+                        
+                        <main class="tela-home col-sm-12 col-md-12 col-lg-10 p-4" id="conteudo">
+                                <h1> Contrate um Veterinário</h1>
+                                <form>
+                                        <div class="buscar">
+                                                <label>Busque:</label>
+                                                <input type="text" id="buscar" placeholder="Pesquise!">
+                                        </div>
+
+                                        <div class="cidade">
+                                                <label>Cidade:</label>
+                                                <input type="text" id="cidade" placeholder="Qual a sua cidade?">
+                                        </div>
+
+                                        <div class="form-button">
+                                                <button type="submit" id="pesquisar">Pesquisar</button>
+                                        </div>
+                                </form>
+
+                                <div id="icons-botoes">
+                                        <a href="consulta"><img src="img/home/icon-consulta.svg" id="icon-consulta"></a>
+
+                                        <a><img src="img/home/icon-doacoes.svg" id="icon-doacoes"></a>
+                                        
+                                        <a><img src="img/home/icon-encontrar.svg" id="icon-encontrePet"></a>
+                                </div>
+                                
+                        </main>
+                
+                    {# <script src="js/Validation.js"></script> #}
+
+{% endblock %}

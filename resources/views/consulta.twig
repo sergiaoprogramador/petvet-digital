@@ -1,0 +1,50 @@
+{% extends 'templates/template.twig' %}
+
+{% block linksCSS %}
+
+        <link rel="stylesheet" type="text/css" href="css/consulta.css"/>
+        
+{% endblock %}
+
+{% block linksJS %}
+
+        
+{% endblock %}
+
+{% block conteudo %}
+
+                        <!-- ======================== CABEÇALHO ===================== -->
+                        {% include 'templates/header.twig' %}
+                        
+                        <main class="tela-home col-sm-12 col-md-12 col-lg-10 p-4" id="conteudo">
+                                <h1>Solicite sua Consulta</h1>
+                                <form>
+                                        <div class="nome">
+                                                <label>Nome:</label>
+                                                <input type="text" id="nome" placeholder="Seu nome...">
+                                        </div>
+
+                                        <div class="contato">
+                                                <label>Contato:</label>
+                                                <input type="text" id="contato" placeholder="Ex: 66 99627-8982">
+                                        </div>
+
+                                        <div class="animal">
+                                                <label>Pet:</label>
+                                                <input type="text" id="animal" placeholder="Nome do pet...">
+                                        </div>
+
+                                        <div class="solicitacao">
+                                                <label>Solicitação de Serviço:</label>
+                                                <textarea type="text" id="animal" placeholder="Descreva o que você precisa..." rows="6"></textarea>
+                                        </div>
+
+                                        <div class="form-button">
+                                                <button type="submit" id="solicitar">Solicitar Serviço</button>
+                                        </div>
+                                </form>                                
+                        </main>
+                
+                    {# <script src="js/Validation.js"></script> #}
+
+{% endblock %}
